@@ -4,7 +4,7 @@
   margin: (left: 2.5cm, right: 2.5cm, top: 2.5cm, bottom: 3cm),
 )
 #set text(
-  font: "Times New Roman",
+  font: "Arial",
   size: 12pt,
   lang: "en",
 )
@@ -18,14 +18,16 @@
 
 // Title Page
 #align(center)[
-  #v(2cm)
+  #v(1cm)
+  #image("logo.png", width: 25%)
+  #v(1cm)
   #text(size: 18pt, weight: "bold")[UNIVERSITY OF BAMBERG] \
   #v(1cm)
   #text(size: 24pt, weight: "bold")[INTERNSHIP REPORT] \
   #v(1cm)
   #text(size: 14pt)[*Company:* Tan Hiep Thanh Joint-Stock Company] \
   #v(0.5cm)
-  #text(size: 14pt)[*Department:* Business Process Analysis and Digital Solution Design] \
+  #text(size: 14pt)[*Department:* Information Technology] \
   #v(4cm)
 ]
 
@@ -78,7 +80,7 @@ Furthermore, the company’s reach extends beyond domestic borders, as it active
 
 == Organizational Structure
 
-The organizational structure of Tan Hiep Thanh is characterized by a compact but highly professional framework. The company maintains a comprehensive "in-house" service model that ensures full control over the value chain—from initial research to final sales. The internal synergy of the firm is reflected in the clear division of its core departments. The Product Department serves as the innovation hub, conducting research and adapting technologies imported from the West. This is supported by the Finance and Accounting Department, which manages fiscal health, and the Marketing and Sales Department, which oversees the extensive distribution network across Vietnam. Supporting these functions, the Logistics Department manages the inbound procurement of raw materials and the outbound distribution of finished products. My role specifically intersected with all these departments, acting as a functional analyst to streamline the data and workflows connecting them.
+The organizational structure of Tan Hiep Thanh is characterized by a compact but highly professional framework. The company maintains a comprehensive "in-house" service model that ensures full control over the value chain, from initial research to final sales. The internal synergy of the firm is reflected in the clear division of its core departments. The Product Department serves as the innovation hub, conducting research and adapting technologies imported from the West. This is supported by the Finance and Accounting Department, which manages fiscal health, and the Marketing and Sales Department, which oversees the extensive distribution network across Vietnam. Supporting these functions, the Logistics Department manages the inbound procurement of raw materials and the outbound distribution of finished products. My role specifically intersected with all these departments, acting as a functional analyst to streamline the data and workflows connecting them.
 
 = Business Process Analysis & Digital Design
 
@@ -86,7 +88,7 @@ The core of my internship was dedicated to evaluating how Tan Hiep Thanh operate
 
 == Mapping "As-Is" Workflows
 
-The first major phase of my internship involved a comprehensive analysis of the company's existing business processes. To propose any meaningful digital improvements, it was essential to deeply understand the "As-Is" state of operations. I conducted detailed process mapping sessions, observing and documenting the daily tasks of the Sales, Logistics, and Accounting teams. This involved tracing the lifecycle of a customer order—from the moment a distributor in the Mekong Delta requested a shipment of NutriGrowth, to the warehouse dispatch, and finally to the invoicing stage.
+The first major phase of my internship involved a comprehensive analysis of the company's existing business processes. To propose any meaningful digital improvements, it was essential to deeply understand the "As-Is" state of operations. I conducted detailed process mapping sessions, observing and documenting the daily tasks of the Sales, Logistics, and Accounting teams. This involved tracing the lifecycle of a customer order, from the moment a distributor in the Mekong Delta requested a shipment of NutriGrowth, to the warehouse dispatch, and finally to the invoicing stage.
 
 Through this meticulous mapping, I successfully identified several critical technical bottlenecks. I discovered that highly skilled employees were spending excessive hours manually entering redundant data into disparate spreadsheet systems. For instance, inventory levels of imported American micro-elements were tracked in one system, while local sales dispatch was tracked in another, leading to delayed inventory updates and occasional stockouts. Furthermore, the communication between field sales representatives and the central office relied heavily on fragmented communication channels, which obscured real-time visibility into market demand and order status. Documenting these inefficiencies provided the empirical foundation needed to justify comprehensive digital system enhancements.
 
@@ -118,7 +120,7 @@ I designed wireframes and logical models for dynamic dashboards that could pull 
 
 Reflecting upon my 17-week tenure at Tan Hiep Thanh Joint-Stock Company, the experience has been profoundly instrumental in bridging the gap between academic theory and professional practice. The coursework undertaken at the University of Bamberg, particularly in systems engineering, process modeling, and IT project management, provided a robust theoretical foundation. However, applying these concepts within the fast-paced, highly specialized environment of international agricultural technology offered insights that cannot be replicated in a classroom.
 
-I developed substantial hard skills in business process mapping (BPMN), requirements engineering, and enterprise architecture analysis. Furthermore, dealing with the complexities of international supply chains—specifically the import of technologies from the US and Europe and subsequent regional distribution—deepened my understanding of global information systems. Equally important was the cultivation of soft skills. I significantly improved my ability to communicate complex technical concepts to non-technical stakeholders, manage cross-functional projects, and navigate the cultural and professional dynamics of a leading Vietnamese corporation. The challenge of translating vague business frustrations into precise, scalable digital solutions has solidified my capability and confidence as an Information Systems professional.
+I developed substantial hard skills in business process mapping (BPMN), requirements engineering, and enterprise architecture analysis. Furthermore, dealing with the complexities of international supply chains, specifically the import of technologies from the US and Europe and subsequent regional distribution, deepened my understanding of global information systems. Equally important was the cultivation of soft skills. I significantly improved my ability to communicate complex technical concepts to non-technical stakeholders, manage cross-functional projects, and navigate the cultural and professional dynamics of a leading Vietnamese corporation. The challenge of translating vague business frustrations into precise, scalable digital solutions has solidified my capability and confidence as an Information Systems professional.
 
 = Conclusion
 
