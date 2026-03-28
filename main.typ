@@ -55,7 +55,7 @@
 #pagebreak()
 
 #set page(numbering: "1")
-#counter(page).update(0)
+#counter(page).update(1)
 
 = Introduction
 The following report provides a comprehensive overview and critical reflection of my 17-week internship at Tan Hiep Thanh Joint-Stock Company in Vietnam, conducted from November 15, 2025, to March 15, 2026. This full-time placement was undertaken as a mandatory practical component of my Master of Science in International Information Systems Management (IISM) at the University of Bamberg.
@@ -110,9 +110,9 @@ My primary focus was the "Order-to-Cash" (OTC) process, which is the backbone of
 
 == Identification of Technical Bottlenecks
 
-A major part of my analysis focused on the communication flow between the company's primary sales channels—local agricultural goods stores and agencies—and the internal sales and finance teams.
+A major part of my analysis focused on the communication flow between the company's primary sales channels, such as local agricultural goods stores and agencies, and the internal sales and finance teams.
 
-Currently, these agencies place orders primarily through informal channels, such as phone calls and text messages. Even after an invoice is issued, the process remains manual: finance employees often call the store owners personally to inform them that the invoice has been sent and to ask them to check it. Through my analysis, I identified this as a critical weak point for several reasons:
+Currently, these agencies place orders primarily through informal channels, such as phone calls and text messages. Even after an invoice is issued, the process remains manual. Finance employees often call the store owners personally to inform them that the invoice has been sent and to ask them to check it. Through my analysis, I identified this as a critical weak point for several reasons.
 
 - *Redundancy and Data Integrity:* Manually transferring data from a text message to a financial record, followed by manual confirmation calls, significantly increases the chance of human error and administrative overhead.
 
@@ -129,16 +129,19 @@ I realized that digitization and digitalization are still in their early stages 
 
 A central challenge I encountered during my Digital Solution Design was the tension between the need for back-end efficiency and the cultural importance of front-end human relationships.
 
-Farmers and store owners in the Vietnamese agricultural sector value the "human touch"—the phone call or the personal text—as a form of trust and service. Forcing these stakeholders into a rigid, impersonal web portal could alienate them and damage the company's competitive advantage. However, from an ISM perspective, the company must modernize its data flow to integrate with external systems like automated tax reporting, inventory management, and financial audits.
+Farmers and store owners in the Vietnamese agricultural sector value the "human touch," consisting of phone calls or personal texts, as a form of trust and service. Forcing these stakeholders into a rigid, impersonal web portal could alienate them and damage the company's competitive advantage. However, from an ISM perspective, the company must modernize its data flow to integrate with external systems like automated tax reporting, inventory management, and financial audits.
 
 - *Back-End Automation:* I proposed a systematic order-tracking framework that allows the sales team to input data into a centralized interface. This ensures that all orders and invoices are logged in a structured manner, providing employees with a clear, followable workflow while ensuring data flows seamlessly into finance and tax platforms.
 
-- *Front-End Personalization:* To maintain the "human touch", I suggested integrating automated notifications via Zalo, the country's most popular messaging app. This provides a familiar and personalized experience for store owners while removing the administrative burden of manual follow-up calls for each individual case.
+- *Front-End Personalization:* To maintain the "human touch," I suggested integrating automated notifications via Zalo, the country's most popular messaging app. This provides a familiar and personalized experience for store owners while removing the administrative burden of manual follow-up calls for each individual case.
 
 == The Path to Growth
-This analysis was the first step in a larger digital roadmap. My work proved that the desire to make a difference is present within the company leadership, but the implementation must be adaptive, not disruptive. By optimizing the O2C process first, we create a foundation for future IT growth—proving that digitalization doesn't have to mean "replacing" people, but rather "empowering" them to focus on the art of the business rather than the burden of the paperwork.
+This analysis was the first step in a larger digital roadmap. My work proved that the desire to make a difference is present within the company leadership, but the implementation must be adaptive and not disruptive. By optimizing the O2C process first, we create a foundation for future IT growth. This confirms that digitalization doesn't have to mean replacing people, but rather empowering them to focus on the art of the business rather than the burden of the paperwork.
 
 = International Context
+
+The placement at Tan Hiep Thanh provided a distinct setting to apply Information Systems Management principles within a cross-border professional framework. While my academic training focused on standardized methodologies, the practical application of these models required a specialized understanding of local business dynamics. This section examines the environmental factors that shaped project collaboration and technical documentation.
+
 == Intercultural Communication and Work Styles
 
 Working at Tan Hiep Thanh provided deep insights into the differences between European and Southeast Asian business cultures. In Germany, efficiency is often equated with automation and directness. In contrast, within the Vietnamese agricultural sector, I learned that efficiency is frequently secondary to relationship-building.
@@ -147,7 +150,7 @@ A notable example of this is the prevalent "Texting" Culture. While a German com
 
 == Language and Professional Collaboration
 
-In daily work, Vietnamese was the primary language for communication, documentation, and stakeholder meetings. Because many technical concepts do not have a single obvious translation, I learned to present terms like "bottlenecks", "as‑is mapping" and "requirements" in clear, context‑driven Vietnamese, often adding the original English term in parentheses the first time it appears. This reduced ambiguity and ensured everyone—managers, sales staff, and field agents—shared the same mental model.
+In daily work, Vietnamese was the primary language for communication, documentation, and stakeholder meetings. Because many technical concepts do not have a single obvious translation, I learned to present terms like "bottlenecks," "as-is mapping," and "requirements" in clear, context-driven Vietnamese, often adding the original English term in parentheses the first time it appears. This reduced ambiguity and ensured everyone, including managers, sales staff, and field agents, shared the same mental model.
 
 To bridge gaps, I prepared bilingual diagrams and short glossaries for each workshop. Visual BPMN diagrams used Vietnamese labels with English annotations to keep them accessible to local staff and potential international partners. 
 
