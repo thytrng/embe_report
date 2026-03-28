@@ -58,102 +58,120 @@
 #counter(page).update(0)
 
 = Introduction
+The following report provides a comprehensive overview and critical reflection of my 17-week internship at Tan Hiep Thanh Joint-Stock Company in Vietnam, conducted from November 15, 2025, to March 15, 2026. This full-time placement was undertaken as a mandatory practical component of my Master of Science in International Information Systems Management (IISM) at the University of Bamberg.
 
-I spent 17 weeks at Tan Hiep Thanh Joint-Stock Company, from mid-November 2025 to mid-March 2026. This full-time internship was a core component of my Master's program in International Information System Management at the University of Bamberg. While I initially felt uncertain about what to expect from an agricultural company in Vietnam, this experience proved to be far more valuable than I anticipated.
+Initially, I approached the prospect of interning within the Vietnamese agricultural sector with a degree of uncertainty regarding the technical maturity and digital scope of the industry. However, this experience proved to be highly sophisticated and academically rewarding, far exceeding my initial expectations. Under the supervision of Ms. Thi Nhan Vu, I was integrated into a high-impact project focused on "Business Process Analysis and Digital Solution Design."
 
-My supervisor, Ms. Thi Nhan Vu, assigned me to a project focused on "Business Process Analysis and Digital Solution Design." Rather than being assigned trivial tasks, I was given meaningful work: analyzing how the company operated, identifying inefficiencies, and proposing technology-based solutions. This hands-on experience connected directly to the systems engineering and process modeling coursework I had completed at Bamberg.
+The primary objective of this internship was to move beyond theoretical frameworks and assist in applying academic principles to a real-world organizational environment. Collaborative responsibilities included supporting the analysis of operational workflows, helping identify technical inefficiencies, and contributing to the design of technology-driven solutions.
+
+This involvement served as a bridge between my graduate coursework at the University of Bamberg—specifically in Systems Engineering and Process Modeling—and the practical demands of an international enterprise. By assisting with the intersection of business operations and digital transformation, I gained a unique vantage point to observe the challenges and opportunities of information systems management in a global context.
 
 = Company Profile
 
-Before proposing any improvements, I needed to understand the company's operations, market position, and organizational structure. This section provides that context.
+To effectively identify opportunities for digital optimization, it was first essential to establish a comprehensive understanding of Tan Hiep Thanh's operational landscape, market positioning, and internal organizational dynamics. This section outlines the company's strategic framework, its role within the international agricultural value chain, and the structural foundation that supports its "in-house" service model.
 
-== General Overview
+== Company Information
 
-Tan Hiep Thanh was established in 2005 and specializes in plant nutrition solutions for Vietnamese agriculture. The company develops and distributes products including foliar fertilizers, root-applied nutrients, microbial treatments, and specialized probiotics. These formulations are engineered based on specific soil conditions and crop requirements, reflecting the company's commitment to technical innovation in agriculture.
+Established in 2005, Tan Hiep Thanh Joint Stock Company is a specialized provider of optimized plant nutrition solutions in Vietnam. The company focuses on high-tech agricultural products, including foliar fertilizers, root-applied nutrients, micro-elements, and probiotics. These products are developed using advanced technology tailored to specific soil characteristics and crop requirements to increase productivity and sustainable income for farmers.
 
-The company operates on three core principles that define its culture. First, its mission centers on innovation and synergy to advance modern, efficient, and sustainable agriculture. Second, its vision is to become a leading provider of solutions that add value to the agricultural value chain regionally and beyond. Third, its business philosophy emphasizes a "Customer-First" approach, with strong commitments to partners, employees, environmental responsibility, and ethical compliance.
+The organization operates under a clear strategic framework:
+
+- *Mission:* To innovate and synergize for a modern, efficient, and sustainable agricultural sector.
+- *Vision:* To become a leading provider of innovative solutions that add value to the agricultural value chain globally.
+- *Business Philosophy:* A "Customer-First" approach, emphasizing respect for partners, employees, and the environment, alongside strict legal and ethical compliance.
 
 == International Operations and Context
 
-Although headquartered in Vietnam, Tan Hiep Thanh maintains significant international involvement through technology imports and product exports. The company sources advanced agricultural technology from Europe and the United States, adapting these innovations for the Vietnamese market. This process requires adherence to international technical standards and ongoing coordination with Western technology providers.
+Although headquartered in Vietnam, Tan Hiep Thanh is deeply integrated into an international business environment through its supply chain and market reach.
 
-On the export side, the company ships products to Cambodia, managing the complexities of international logistics and regulatory compliance. This dual focus on technology import and product export created a dynamic environment where I could observe global supply chain operations firsthand - a valuable complement to my academic studies in international information systems.
+Tan Hiep Thanh is deeply integrated into global markets through its supply chain and technical partnerships. A primary international component of the company's operations is the import and transfer of advanced agricultural technology from Europe and the United States. This process requires maintaining technical standards and communication channels with Western technology providers to ensure high-quality product development.
 
-== Organizational Structure
+Furthermore, the company's reach extends beyond domestic borders, as it actively exports its products to Cambodia. This regional trade involves managing international logistics and complying with foreign regulatory requirements. By sourcing raw materials and microbial treatments from global markets, the company ensures its production processes align with international quality standards. This environment provides a practical setting to observe how global technologies and trade logistics are integrated into a local business framework.
 
-Tan Hiep Thanh operates with a compact but professional organizational structure. Rather than outsourcing core functions, the company maintains an "in-house" model that provides full control over the value chain, from research and development through to final sales.
+== Organizational Structure of Tan Hiep Thanh
 
-The Product Department leads innovation, adapting imported technologies into market-ready formulations. The Design Department handles branding, packaging, and visual materials. Finance and Accounting manages both domestic operations and international trade documentation. Marketing and Sales drives distribution across Vietnam and export to Cambodia. Finally, the Logistics Department coordinates inbound procurement of raw materials and outbound distribution of finished products.
+The organizational structure of Tan Hiep Thanh Joint Stock Company is characterized by a compact but highly professional and specialized framework. Despite the relatively small size of the administrative office, the company maintains a comprehensive "in-house" service model that ensures full control over the value chain—from initial research to final sales. The internal synergy and systematic culture of the firm are reflected in the clear division of its core departments.
 
-What stood out to me was the flexibility inherent in a smaller organization - team members frequently handled responsibilities beyond their formal titles, creating a collaborative environment where cross-functional understanding was essential.
+The Product Department serves as the company's innovation hub, where specialists conduct research to study and create the optimized plant nutrition formulas. This department is responsible for the technical transfer and adaptation of technologies imported from Europe and the United States, ensuring that the formulations are scientifically grounded and tailored to specific agricultural needs. Complementing the technical side is the Design Department, which handles the creation of product labels and branding materials in-house. This ensures that all visual communication and product information are aligned with the company's quality standards and mission of providing modern agricultural solutions.
 
-= Business Process Analysis & Digital Design
+The company's business operations are supported by a dedicated Finance and Accounting Department, which manages the fiscal health and international trade documentation for the firm. The Information Technology Department currently maintains a specialized but limited scope, primarily focusing on administrative Microsoft 365 management and general hardware support; it does not yet handle advanced business process automation or strategic data integration. Marketing and business growth are driven by the Marketing and Sales Department, which oversees the extensive distribution network across Vietnam and the export operations to Cambodia. Supporting these functions, the Logistics Department manages the movement of goods, including the inbound procurement of raw materials from the West and the outbound distribution of finished products to regional farmers.
 
-This section details the core work of my internship: understanding existing processes, identifying improvement opportunities, and designing digital solutions. All work was conducted under the supervision of Ms. Thi Nhan Vu.
+This well-defined structure allows for efficient communication and interdisciplinary cooperation between the technical research teams and the commercial departments, facilitating a streamlined workflow that supports the company's philosophy of prioritizing customer satisfaction and sustainable growth.
 
-== Mapping Existing Workflows
+= Roles and Responsibilities
 
-The initial phase focused on understanding the "As-Is" state - documenting how processes actually functioned day-to-day, as opposed to how they appeared on paper.
+During my tenure at Tan Hiep Thanh Joint-Stock Company, my core focus was on Business Process Analysis and Digital Solution Design. Because my tasks involved analyzing cross-departmental workflows to identify inefficiencies, I had the unique opportunity to report directly to the Company Director. This high-level reporting line was essential, as it allowed me to gather data from various teams and provided a holistic view of the company's internal and external operations.
 
-I conducted process mapping sessions with the Sales, Logistics, and Accounting teams. This involved tracing the lifecycle of customer orders from initial distributor request through warehouse dispatch and invoicing. I used BPMN (Business Process Model and Notation), a standard technique for visually mapping workflows to identify delays and bottlenecks.
+== Process Visualization and "As-Is" Mapping
 
-A significant observation came during time spent with the Logistics team. I noticed inventory data was being manually entered into three separate spreadsheet systems - the same numbers, typed three times. This redundancy consumed staff time and created opportunities for errors. Additionally, field sales representatives had no real-time visibility into inventory levels, forcing them to telephone the office for stock checks during customer visits. These inefficiencies became the foundation for my improvement proposals.
+To bring transparency to the company's existing operations, I utilized Business Process Model and Notation (BPMN 2.0) to visualize core workflows. Using a globally recognized standard was a deliberate choice, it ensured that my diagrams remained professionally accessible to both local stakeholders and potential international IT partners.
 
-== Defining Functional Requirements
+My primary focus was the "Order-to-Cash" (OTC) process, which is the backbone of the company's revenue cycle. By mapping the "As-Is" state, I was able to systematically identify technical bottlenecks that were previously only understood intuitively by the staff.
 
-With documented inefficiencies in hand, the next step was translating these problems into technical specifications. This required working closely with department heads to understand their needs and translate business requirements into system requirements.
+== Identification of Technical Bottlenecks
 
-I assisted in developing Functional Requirement Documents (FRDs) - structured specifications outlining what digital systems should accomplish. For the inventory challenge, we defined requirements for a centralized, cloud-based module that would automatically synchronize with procurement databases upon shipment arrival and deduct stock when sales orders processed.
+A major part of my analysis focused on the communication flow between the company's primary sales channels—local agricultural goods stores and agencies—and the internal sales and finance teams.
 
-For the field sales team, I helped define requirements for a mobile-responsive order entry interface. This would allow agents to check real-time stock availability while visiting farms and distributors, eliminating the telephone-based coordination delays.
+Currently, these agencies place orders primarily through informal channels, such as phone calls and text messages. Even after an invoice is issued, the process remains manual: finance employees often call the store owners personally to inform them that the invoice has been sent and to ask them to check it. Through my analysis, I identified this as a critical weak point for several reasons:
 
-== Optimizing Data Integration
+- *Redundancy and Data Integrity:* Manually transferring data from a text message to a financial record, followed by manual confirmation calls, significantly increases the chance of human error and administrative overhead.
 
-A persistent challenge was the presence of data silos across departments. Each functional area used isolated software platforms that did not communicate natively, preventing a unified view of operations.
+- *Scalability:* As the company grows, these "human relays" become bottlenecks that prevent rapid processing.
 
-I analyzed the data structures used by Finance, Logistics, and Product departments to identify common identifiers - particularly product SKUs and customer IDs. Using these common keys, I helped develop logical frameworks for database connectivity.
+- *Transparency:* Orders and confirmations are "trapped" in individual chat logs or phone calls, making it impossible for management to see real-time status updates.
 
-A concrete example: when the Product Department updated formulation specifications, this information often did not reach the Marketing team for weeks, creating confusion when customers inquired about "new" products. I mapped a process flow where product data updates would cascade automatically to relevant departments, preventing such discrepancies in customer communications and shipping documentation.
+== The "Art" of the Agricultural Sector vs. Digitalization
+One of my most significant findings was that this manual way of working is not just a technical oversight, it is rooted in the nature of the Vietnamese agricultural sector. Working with stores, agencies, and farmers in this region is built on personal relationships and direct communication. While the global discourse focuses heavily on digitalization, the reality on the ground is that "the art" of this business still relies on the trust established through a phone call.
 
-== Bridging Business and IT Needs
+I realized that digitization and digitalization are still in their early stages here. This represents a massive opportunity for Information Systems Management. My analysis served as the essential "first step", proving that the company has the ambition to modernize while still respecting the cultural nuances of their industry.
 
-A substantial portion of my work involved serving as a liaison between business stakeholders and technical teams. This required translating business terminology into technical architecture while managing expectations on both sides.
+== Strategic Design: Bridging the Socio-Technical Gap
 
-In cross-functional workshops with agricultural specialists, sales managers, and system developers, I facilitated communication when requirements were unclear. When business users requested "better tracking," I helped translate this into specific technical deliverables - whether database queries, user interface components, or automated notifications.
+A central challenge I encountered during my Digital Solution Design was the tension between the need for back-end efficiency and the cultural importance of front-end human relationships.
 
-I also learned to manage expectations regarding technical limitations. Not all requests could be implemented immediately, so I advocated for phased rollouts prioritizing high-impact features. A critical insight was recognizing that even technically sound solutions would fail if users found them too complex and reverted to manual processes. User-centric design principles became a consistent priority.
+Farmers and store owners in the Vietnamese agricultural sector value the "human touch"—the phone call or the personal text—as a form of trust and service. Forcing these stakeholders into a rigid, impersonal web portal could alienate them and damage the company's competitive advantage. However, from an ISM perspective, the company must modernize its data flow to integrate with external systems like automated tax reporting, inventory management, and financial audits.
 
-== Automated Reporting Concepts
+- *Back-End Automation:* I proposed a systematic order-tracking framework that allows the sales team to input data into a centralized interface. This ensures that all orders and invoices are logged in a structured manner, providing employees with a clear, followable workflow while ensuring data flows seamlessly into finance and tax platforms.
 
-The final phase focused on leveraging integrated data to support management decision-making. Previously, generating reports on sales performance, inventory turnover, and procurement costs required significant manual data aggregation.
+- *Front-End Personalization:* To maintain the "human touch", I suggested integrating automated notifications via Zalo, the country's most popular messaging app. This provides a familiar and personalized experience for store owners while removing the administrative burden of manual follow-up calls for each individual case.
 
-I conceptualized automated reporting dashboards that would pull data from integrated systems. These included agriculture-specific KPIs (Key Performance Indicators) such as seasonal sales velocity for specific fertilizer types and lead-time analysis for imported materials. I developed wireframes for dynamic dashboards and outlined automated scripts for weekly report generation and distribution.
+== The Path to Growth
+This analysis was the first step in a larger digital roadmap. My work proved that the desire to make a difference is present within the company leadership, but the implementation must be adaptive, not disruptive. By optimizing the O2C process first, we create a foundation for future IT growth—proving that digitalization doesn't have to mean "replacing" people, but rather "empowering" them to focus on the art of the business rather than the burden of the paperwork.
 
-The goal was shifting management from reactive problem-solving to proactive decision-making based on real-time data visibility.
+= International Context
+== Intercultural Communication and Work Styles
 
-= Personal Reflection & Skills Acquired
+Working at Tan Hiep Thanh provided deep insights into the differences between European and Southeast Asian business cultures. In Germany, efficiency is often equated with automation and directness. In contrast, within the Vietnamese agricultural sector, I learned that efficiency is frequently secondary to relationship-building.
 
-This internship bridged the gap between academic theory and professional practice. Coursework in systems engineering and process modeling at Bamberg provided necessary foundations, but applying these concepts in a real business environment revealed complexities that textbooks cannot capture.
+A notable example of this is the prevalent "Texting" Culture. While a German company might perceive ordering via text as "unprofessional" or "chaotic," in Vietnam, it is viewed as a sign of high accessibility and responsiveness. Furthermore, the existing Hierarchy and Power Distance significantly influence operations. Reporting directly to the Director allowed me to observe the high power distance typical in Vietnamese medium- to small-sized organizations, where decisions are often Top-down. Consequently, the Director's personal drive for digitalization serves as the primary engine for organizational change.
 
-== Practical Skills Developed
+== Language and Professional Collaboration
 
-Through this experience, I developed competencies in several areas. First, business process mapping using BPMN enabled me to document and analyze workflows systematically. Second, requirements engineering taught me to ask precise questions, balance competing requests, and prioritize features based on business impact. Third, data integration analysis provided insight into how information flows across organizational functions.
+In daily work, Vietnamese was the primary language for communication, documentation, and stakeholder meetings. Because many technical concepts do not have a single obvious translation, I learned to present terms like "bottlenecks", "as‑is mapping" and "requirements" in clear, context‑driven Vietnamese, often adding the original English term in parentheses the first time it appears. This reduced ambiguity and ensured everyone—managers, sales staff, and field agents—shared the same mental model.
 
-The international dimension broadened my understanding of global information systems. Working with technology imported from Europe and products exported to Cambodia exposed me to cross-border logistics, regulatory compliance, and the complexities of international supply chains.
+To bridge gaps, I prepared bilingual diagrams and short glossaries for each workshop. Visual BPMN diagrams used Vietnamese labels with English annotations to keep them accessible to local staff and potential international partners. 
 
-== Challenges and Growth
+= Evaluation and Reflection
 
-The first week involved primarily observation and note-taking, with limited contribution. Adjusting to the pace and culture of a Vietnamese business required patience. However, by mid-internship, I was actively contributing to solution design rather than just understanding problems.
+Reflecting on my time at Tan Hiep Thanh Joint-Stock Company, this internship was far more than a simple academic requirement. While I came into this role with existing experience in Business Process Management and Information Systems Management from both my previous professional work and my studies at the University of Bamberg, the reality of the Vietnamese workplace offered a completely different perspective that theory alone could not provide.
 
-A significant learning moment came when I observed a proposed system rejected because the user interface was too complicated. Users chose to continue with spreadsheets rather than adopt the new tool. This reinforced that technical excellence means little without user adoption - a lesson I will carry throughout my career.
+== A Personal and Professional "Rediscovery"
+One of the most surprising aspects of this journey was my own personal connection to the environment. Despite being Vietnamese, I had never had the opportunity to work professionally within the country before. I found myself in a unique position: I understood the language and the general culture, yet the specific "work culture" and the way technical tasks are executed in a local agricultural firm never failed to surprise me.
 
-The most valuable transformation was in communication. Explaining technical concepts to non-technical stakeholders and translating business needs for technical teams requires careful attention to language and context. This skill, developed through direct practice, will be essential in my future career.
+It was a humbling experience to realize that knowing a culture as a native is very different from navigating it as a professional IS manager. This "insider-outsider" perspective allowed me to analyze the company's processes with a critical eye while still maintaining a deep empathy for the staff's traditional methods.
+
+== The Creative Freedom of an Early-Stage Project
+From a professional standpoint, this internship was a rare and significant opportunity. Because the digital transformation at Tan Hiep Thanh is in its very early stages, I was not merely a cog in a pre-existing machine. Instead, I was given a high degree of creative freedom and imagination.
+
+Being tasked with the first analytical steps of their digital roadmap meant I had the "blank canvas" needed to design solutions from the ground up. This autonomy allowed me to move beyond standard textbook applications and think strategically about how to build a digital foundation that truly fits this specific company.
+
+== Learning in a "Low-Tech" Environment
+The most profound technical lesson I learned was how data integration functions in a "low-tech" or transitioning environment. In a highly digitized setting, integration is a technical problem; at Tan Hiep Thanh, it was a human problem.
+
+I observed a fascinating duality in the employees: a natural reluctance to move away from comfortable manual habits (like phone calls and texts), mixed with a genuine curiosity about how technology could make their lives easier. I realized that the success of any IT system is dictated by these two emotions. Understanding this helped me refine my approach to Change Management—learning that you must satisfy the curiosity of the employees to overcome their reluctance.
 
 = Conclusion
-
-This internship at Tan Hiep Thanh fulfilled the practical training requirements of the International Information System Management program. Beyond fulfilling academic obligations, this experience confirmed my career direction in IT management.
-
-I had the opportunity to map real business workflows, contribute to functional requirements documentation, analyze data integration challenges, and conceptualize reporting systems aimed at improving operational efficiency. These activities directly applied the analytical frameworks and methodologies studied at Bamberg.
+In conclusion, this internship successfully bridged the gap between my past experiences and my future career goals. It taught me that in the world of International ISM, technical expertise is only half the battle. The other half is the ability to adapt to a culture that functions differently than your own—even if that culture is technically your own. I leave this internship with a deeper appreciation for the "art" of business in Vietnam and a strengthened set of skills to lead digital initiatives in complex, human-centered environments.
 
 I extend sincere gratitude to my supervisor, Ms. Thi Nhan Vu, for her guidance, patience, and mentorship throughout this experience. Her feedback pushed my professional development forward and provided insights unavailable in classroom settings.
 
