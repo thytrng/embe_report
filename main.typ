@@ -75,7 +75,7 @@ Established in 2005, Tan Hiep Thanh Joint Stock Company is a specialized provide
 
 The organization operates under a clear strategic framework:
 
-- *Mission:* To innovate and synergize for a modern, efficient, and sustainable agricultural sector.
+- *Mission:* To innovate and synergize for a modern, efficient, and sustainable agricultural sector by providing farmers with optimized plant nutrition solutions.
 - *Vision:* To become a leading provider of innovative solutions that add value to the agricultural value chain globally.
 - *Business Philosophy:* A "Customer-First" approach, emphasizing respect for partners, employees, and the environment, alongside strict legal and ethical compliance.
 
@@ -114,7 +114,7 @@ A primary pillar of my analysis was the communication flow between the company's
 
 - *Scalability:* As the company expands, these "human relays" become rigid bottlenecks that prevent rapid, high-volume order processing.
 
-- *Transparency:* Because orders and confirmations are trapped within private chat logs or phone conversations, management lacks the visibility needed for real-time operational updates.
+- *Transparency:* Orders and confirmations trapped in private chat logs or phone conversations prevent real-time operational updates.
 
 == The "Art" of the Agricultural Sector vs. Digitalization
 One of my most significant findings was that this manual way of working is not just a technical oversight, it is rooted in the nature of the Vietnamese agricultural sector. Working with stores, agencies, and farmers in this region is built on personal relationships and direct communication. While the global discourse focuses heavily on digitalization, the reality on the ground is that "the art" of this business still relies on the trust established through a phone call.
