@@ -4,17 +4,17 @@
   margin: (left: 2.5cm, right: 2.5cm, top: 2.5cm, bottom: 3cm),
 )
 #set text(
-  font: "Arial",
-  size: 11pt,
+  font: "Linux Libertine",
+  size: 13pt,
   lang: "en",
+  hyphenate: true,
 )
 #set heading(numbering: "1.1.")
-#set par(justify: true, leading: 1.5em, first-line-indent: 1em)
-#show heading: it => [
-  #v(0.8em)
-  #it
-  #v(0.8em)
-]
+#set par(justify: true, leading: 1em, spacing: 1.5em)
+#show heading: set block(above: 1.75em, below: 1em)
+
+// Figure numbering
+#set figure(numbering: "1")
 
 // Title Page
 #align(center)[
@@ -50,7 +50,7 @@
 #pagebreak()
 
 // Table of Contents
-#outline(title: "Table of Contents", indent: auto)
+#outline(title: "Table of Contents", indent: auto, depth: 3)
 #pagebreak()
 
 #set page(numbering: "1")
@@ -71,7 +71,7 @@ To effectively identify opportunities for digital optimization, it was first ess
 
 == Company Information
 
-Established in 2005, Tan Hiep Thanh Joint Stock Company is a specialized provider of optimized plant nutrition solutions in Vietnam. The company focuses on high-tech agricultural products, including foliar fertilizers, root-applied nutrients, micro-elements, and probiotics. These products are developed using advanced technology tailored to specific soil characteristics and crop requirements to increase productivity and sustainable income for farmers.
+Established in 2005, Tan Hiep Thanh Joint-Stock Company is a specialized provider of optimized plant nutrition solutions in Vietnam. The company focuses on high-tech agricultural products, including foliar fertilizers, root-applied nutrients, micro-elements, and probiotics. These products are developed using advanced technology tailored to specific soil characteristics and crop requirements to increase productivity and sustainable income for farmers.
 
 The organization operates under a clear strategic framework:
 
@@ -87,11 +87,11 @@ Furthermore, the company's reach extends beyond domestic borders, as it actively
 
 == Organizational Structure of Tan Hiep Thanh
 
-The organizational structure of Tan Hiep Thanh Joint Stock Company is characterized by a compact but highly professional and specialized framework. Despite the relatively small size of the administrative office, the company maintains a comprehensive "in-house" service model that ensures full control over the value chain, from initial research to final sales. The internal synergy and systematic culture of the firm are reflected in the clear division of its core departments.
+The organizational structure of Tan Hiep Thanh Joint-Stock Company is characterized by a compact but highly professional and specialized framework. Despite the relatively small size of the administrative office, the company maintains a comprehensive "in-house" service model that ensures full control over the value chain, from initial research to final sales. The internal synergy and systematic culture of the firm are reflected in the clear division of its core departments.
 
 The Product Department serves as the company's innovation hub, where specialists conduct research to study and create the optimized plant nutrition formulas. This department is responsible for the technical transfer and adaptation of technologies imported from Europe and the United States, ensuring that the formulations are scientifically grounded and tailored to specific agricultural needs. Complementing the technical side is the Design Department, which handles the creation of product labels and branding materials in-house. This ensures that all visual communication and product information are aligned with the company's quality standards and mission of providing modern agricultural solutions.
 
-The company's business operations are supported by a dedicated Finance and Accounting Department, which manages the fiscal health and international trade documentation for the firm. The Information Technology Department currently maintains a specialized but limited scope, primarily focusing on administrative Microsoft 365 management and general hardware support, it does not yet handle advanced business process automation or strategic data integration. 
+The company's business operations are supported by a dedicated Finance and Accounting Department, which manages the fiscal health and international trade documentation for the firm. The Information Technology Department currently maintains a specialized but limited scope, primarily focusing on administrative Microsoft 365 management and general hardware support. However, it does not yet handle advanced business process automation or strategic data integration. 
 
 Marketing and business growth are driven by the Marketing and Sales Department, which oversees the extensive distribution network across Vietnam and the export operations to Cambodia. Supporting these functions, the Logistics Department manages the movement of goods, including the inbound procurement of raw materials from the West and the outbound distribution of finished products to regional farmers.
 
@@ -108,7 +108,7 @@ To bring transparency to the company’s operations, I utilized BPMN 2.0 (Busine
 
 While the O2C cycle was functional, it remained highly fragmented because employees often performed identical core tasks through varying methods, personal habits, and individual speeds. This "get the job done" philosophy supported short-term operations but created significant inefficiencies that hindered the company's long-term strategic goals.
 
-A primary pillar of my analysis was the communication flow between the company's external sales channels—such as local agricultural stores and agencies—and the internal sales and finance teams. Currently, these agencies place orders through informal channels like phone calls and text messages. Even after an invoice is issued, the process remains manual. Finance employees often make personal phone calls to store owners to confirm receipt and request a review of the documents. I identified several critical weaknesses in this approach.
+A primary pillar of my analysis was the communication flow between the company's external sales channels, such as local agricultural stores and agencies, and the internal sales and finance teams. Currently, these agencies place orders through informal channels like phone calls and text messages. Even after an invoice is issued, the process remains manual. Finance employees often make personal phone calls to store owners to confirm receipt and request a review of the documents. I identified several critical weaknesses in this approach.
 
 - *Redundancy and Data Integrity:* Manually transferring data from unstructured text messages into financial records followed by manual confirmation calls increases the risk of human error and adds unnecessary administrative overhead.
 
@@ -157,7 +157,7 @@ Reflecting on my time at Tan Hiep Thanh Joint-Stock Company, this internship was
 == A Personal and Professional "Rediscovery"
 One of the most surprising aspects of this journey was my own personal connection to the environment. Despite being Vietnamese, I had never had the opportunity to work professionally within the country before. I found myself in a unique position: I understood the language and the general culture, yet the specific "work culture" and the way technical tasks are executed in a local agricultural firm never failed to surprise me.
 
-It was a humbling experience to realize that knowing a culture as a native is very different from navigating it as a professional IS manager. This "insider-outsider" perspective allowed me to analyze the company's processes with a critical eye while still maintaining a deep empathy for the staff's traditional methods.
+It was a humbling experience to realize that knowing a culture as a native was very different from navigating it as a professional IS manager. This "insider-outsider" perspective allowed me to analyze the company's processes with a critical eye while still maintaining a deep empathy for the staff's traditional methods.
 
 == The Creative Freedom of an Early-Stage Project
 From a professional standpoint, this internship was a rare and significant opportunity. Because the digital transformation at Tan Hiep Thanh is in its very early stages, I was not merely a cog in a pre-existing machine. Instead, I was given a high degree of creative freedom and imagination.
@@ -165,7 +165,7 @@ From a professional standpoint, this internship was a rare and significant oppor
 Being tasked with the first analytical steps of their digital roadmap meant I had the "blank canvas" needed to design solutions from the ground up. This autonomy allowed me to move beyond standard textbook applications and think strategically about how to build a digital foundation that truly fits this specific company.
 
 == Reflection
-The most profound technical lesson I learned was how data integration functions in a "low-tech" or transitioning environment. In a highly digitized setting, integration is a technical problem; at Tan Hiep Thanh, it was a human problem.
+The most profound technical lesson I learned was how data integration functions in a "low-tech" or transitioning environment. In a highly digitized setting, integration was a technical problem, while at Tan Hiep Thanh, it was a human problem.
 
 I observed a fascinating duality in the employees: a natural reluctance to move away from comfortable manual habits (like phone calls and texts), mixed with a genuine curiosity about how technology could make their lives easier. I realized that the success of any IT system is dictated by these two emotions. Understanding this helped me refine my approach to Change Management by learning that you must satisfy the curiosity of the employees to overcome their reluctance.
 
