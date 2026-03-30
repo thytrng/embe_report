@@ -57,13 +57,13 @@
 #counter(page).update(1)
 
 = Introduction
-The following report provides a comprehensive overview and critical reflection of my 17-week internship at Tan Hiep Thanh Joint-Stock Company in Vietnam, conducted from November 15, 2025, to March 15, 2026. This full-time placement was undertaken as a mandatory practical component of my Master of Science in International Information Systems Management (IISM) at the University of Bamberg.
+The following report provides a comprehensive overview and critical reflection of my 17-week internship at Tan Hiep Thanh Joint-Stock Company in Vietnam, conducted from November 15, 2025, to March 15, 2026. This full-time placement was undertaken as a mandatory practical component of my Master of Science in International Information Systems Management at the University of Bamberg.
 
 Initially, I approached the prospect of interning within the Vietnamese agricultural sector with a degree of uncertainty regarding the technical maturity and digital scope of the industry. However, this experience proved to be highly sophisticated and academically rewarding, far exceeding my initial expectations. Under the supervision of Ms. Thi Nhan Vu, I was integrated into a high-impact project focused on "Business Process Analysis and Digital Solution Design."
 
 The primary objective of this internship was to move beyond theoretical frameworks and assist in applying academic principles to a real-world organizational environment. Collaborative responsibilities included supporting the analysis of operational workflows, helping identify technical inefficiencies, and contributing to the design of technology-driven solutions.
 
-This involvement served as a bridge between my graduate coursework at the University of Bamberg, specifically in Systems Engineering and Process Modeling, and the practical demands of an international enterprise. By assisting with the intersection of business operations and digital transformation, I gained a unique vantage point to observe the challenges and opportunities of information systems management in a global context.
+This involvement served as a bridge between my graduate coursework at the University of Bamberg, specifically in Systems Engineering and Process Modeling, and the practical demands of an international enterprise. By assisting with the intersection of business operations and digital transformation, I gained a unique vantage point to observe the challenges and opportunities of Information Systems Management (ISM) in a global context.
 
 = Company Profile
 
@@ -101,14 +101,16 @@ This well-defined structure allows for efficient communication and interdiscipli
 
 During my tenure at Tan Hiep Thanh Joint-Stock Company, my core focus was on Business Process Analysis and Digital Solution Design. Because my tasks involved analyzing cross-departmental workflows to identify inefficiencies, I had the unique opportunity to report directly to the Company Director Ms. Thi Nhan Vu. This high-level reporting line was essential, as it allowed me to gather data from various teams and provided a holistic view of the company's internal and external operations.
 
-== Process Visualization and "As-Is" Mapping
-To bring transparency to the company’s operations, I utilized BPMN 2.0 (Business Process Model and Notation). A significant challenge I discovered early on was that the company lacked any standardized processes. My primary focus was the "Order-to-Cash" (O2C) process, which is the backbone of the company's revenue cycle. By mapping the "As-Is" state, I was able to systematically identify technical bottlenecks that were previously only understood intuitively by the staff. 
+== Process Visualization and As-Is Mapping
+To bring transparency to the company's internal operations, I utilized BPMN 2.0 (Business Process Model and Notation) as my primary analytical framework. My focus was the "Order-to-Cash" (O2C) process, which serves as the backbone of the company's revenue cycle. Mapping the "As-Is" state was an intensive, iterative task that involved "shadowing" daily routines and conducting semi-structured interviews with department heads to capture the reality of the workflow.
+
+By applying this standardized notation, I was able to systematically identify technical bottlenecks that the staff had previously only understood intuitively.
 
 == Identification of Technical Bottlenecks
 
 While the O2C cycle was functional, it remained highly fragmented because employees often performed identical core tasks through varying methods, personal habits, and individual speeds. This "get the job done" philosophy supported short-term operations but created significant inefficiencies that hindered the company's long-term strategic goals.
 
-A primary pillar of my analysis was the communication flow between the company's external sales channels, such as local agricultural stores and agencies, and the internal sales and finance teams. Currently, these agencies place orders through informal channels like phone calls and text messages. Even after an invoice is issued, the process remains manual. Finance employees often make personal phone calls to store owners to confirm receipt and request a review of the documents. I identified several critical weaknesses in this approach.
+A primary pillar of my analysis was the communication flow between the company's external sales channels, such as local agricultural stores and agencies, and the internal sales and finance teams. Currently, these agencies place orders mostly through informal channels like phone calls and text messages. Even after an invoice is issued, the process remains manual. Finance employees often make personal phone calls to store owners to confirm receipt and request a review of the documents. I identified several critical weaknesses in this approach.
 
 - *Redundancy and Data Integrity:* Manually transferring data from unstructured text messages into financial records followed by manual confirmation calls increases the risk of human error and adds unnecessary administrative overhead.
 
@@ -116,10 +118,7 @@ A primary pillar of my analysis was the communication flow between the company's
 
 - *Transparency:* Orders and confirmations trapped in private chat logs or phone conversations prevent real-time operational updates.
 
-== The "Art" of the Agricultural Sector vs. Digitalization
 One of my most significant findings was that this manual way of working is not just a technical oversight, it is rooted in the nature of the Vietnamese agricultural sector. Working with stores, agencies, and farmers in this region is built on personal relationships and direct communication. While the global discourse focuses heavily on digitalization, the reality on the ground is that "the art" of this business still relies on the trust established through a phone call.
-
-I realized that digitization and digitalization are still in their early stages here. This represents a massive opportunity for Information Systems Management. My analysis served as the essential "first step", proving that the company has the ambition to modernize while still respecting the cultural nuances of their industry.
 
 == Strategic Design: Bridging the Socio-Technical Gap
 
@@ -132,17 +131,21 @@ Farmers and store owners in the Vietnamese agricultural sector value the "human 
 - *Front-End Personalization:* To maintain the "human touch," I suggested integrating automated notifications via Zalo, the country's most popular messaging app. This provides a familiar and personalized experience for store owners while removing the administrative burden of manual follow-up calls for each individual case.
 
 == The Path to Growth
-This analysis was the first step in a larger digital roadmap. My work proved that the desire to make a difference is present within the company leadership, but the implementation must be adaptive and not disruptive. By optimizing the O2C process first, we create a foundation for future IT growth. This confirms that digitalization doesn't have to mean replacing people, but rather empowering them to focus on the art of the business rather than the burden of the paperwork.
+My proposed framework was selected as the preferred path forward, though it remains in the early stages of refinement and pilot testing. As with any ISM project, its true effectiveness can only be determined after a period of data tracking and evaluation. 
+However, the first step, proving that the leadership has the ambition to modernize without disrupting the human art of the business, has been successfully taken.
 
-= International Context
+I plan to keep in touch with the company to monitor the progress of these initiatives. By optimizing the O2C process first, we have laid a foundation that empowers employees to focus on high-value relationship building rather than the administrative burden of manual paperwork.
 
-The placement at Tan Hiep Thanh provided a distinct setting to apply Information Systems Management principles within a cross-border professional framework. While my academic training focused on standardized methodologies, the practical application of these models required a specialized understanding of local business dynamics. This section examines the environmental factors that shaped project collaboration and technical documentation.
+
+= Global and Intercultural Experience
+
+The placement at Tan Hiep Thanh provided a distinct setting to apply ISM principles within a cross-border professional framework. While my academic training focused on standardized methodologies, the practical application of these models required a specialized understanding of local business dynamics. This section examines the environmental factors that shaped project collaboration and technical documentation.
 
 == Intercultural Communication and Work Styles
 
 Working at Tan Hiep Thanh provided deep insights into the differences between European and Southeast Asian business cultures. In Germany, efficiency is often equated with automation and directness. In contrast, within the Vietnamese agricultural sector, I learned that efficiency is frequently secondary to relationship-building.
 
-A notable example of this is the prevalent "Texting" Culture. While a German company might perceive ordering via text as "unprofessional" or "chaotic," in Vietnam, it is viewed as a sign of high accessibility and responsiveness. Furthermore, the existing Hierarchy and Power Distance significantly influence operations. Reporting directly to the Director allowed me to observe the high power distance typical in Vietnamese medium- to small-sized organizations, where decisions are often Top-down. Consequently, the Director's personal drive for digitalization serves as the primary engine for organizational change.
+A notable example of this is the prevalent "texting" culture. While a German company might perceive ordering via text as unprofessional or chaotic, in Vietnam, it is viewed as a sign of high accessibility and responsiveness. Furthermore, the existing hierarchy and power distance significantly influence operations. Reporting directly to the Director allowed me to observe the high power distance typical in Vietnamese medium- to small-sized organizations, where decisions are often top-down. Consequently, the Director's personal drive for digitalization serves as the primary engine for organizational change.
 
 == Language and Professional Collaboration
 
@@ -152,9 +155,9 @@ To bridge gaps, I prepared bilingual diagrams and short glossaries for each work
 
 = Evaluation and Reflection
 
-Reflecting on my time at Tan Hiep Thanh Joint-Stock Company, this internship was far more than a simple academic requirement. While I came into this role with existing experience in Business Process Management and Information Systems Management from both my previous professional work and my studies at the University of Bamberg, the reality of the Vietnamese workplace offered a completely different perspective that theory alone could not provide.
+Reflecting on my time at Tan Hiep Thanh Joint-Stock Company, this internship was far more than a simple academic requirement. While I came into this role with existing experience in Business Process Management and ISM from both my previous professional work and my studies at the University of Bamberg, the reality of the Vietnamese workplace offered a completely different perspective that theory alone could not provide.
 
-== A Personal and Professional "Rediscovery"
+== A Personal and Professional Rediscovery
 One of the most surprising aspects of this journey was my own personal connection to the environment. Despite being Vietnamese, I had never had the opportunity to work professionally within the country before. I found myself in a unique position: I understood the language and the general culture, yet the specific "work culture" and the way technical tasks are executed in a local agricultural firm never failed to surprise me.
 
 It was a humbling experience to realize that knowing a culture as a native was very different from navigating it as a professional IS manager. This "insider-outsider" perspective allowed me to analyze the company's processes with a critical eye while still maintaining a deep empathy for the staff's traditional methods.
@@ -167,11 +170,11 @@ Being tasked with the first analytical steps of their digital roadmap meant I ha
 == Reflection
 The most profound technical lesson I learned was how data integration functions in a "low-tech" or transitioning environment. In a highly digitized setting, integration was a technical problem, while at Tan Hiep Thanh, it was a human problem.
 
-I observed a fascinating duality in the employees: a natural reluctance to move away from comfortable manual habits (like phone calls and texts), mixed with a genuine curiosity about how technology could make their lives easier. I realized that the success of any IT system is dictated by these two emotions. Understanding this helped me refine my approach to Change Management by learning that you must satisfy the curiosity of the employees to overcome their reluctance.
+I observed a fascinating duality in the employees: a natural reluctance to move away from comfortable manual habits (like phone calls and texts), mixed with a genuine curiosity about how technology could make their lives easier. I realized that the success of any IT system is dictated by these emotions. Understanding this helped me refine my approach to change management by learning that you must satisfy the curiosity of the employees to overcome their reluctance.
 
 = Conclusion
-In conclusion, this internship successfully bridged the gap between my past experiences and my future career goals. It taught me that in the world of International ISM, technical expertise is only half the battle. The other half is the ability to adapt to a culture that functions differently than your own, even if that culture is technically your own. I leave this internship with a deeper appreciation for the "art" of business in Vietnam and a strengthened set of skills to lead digital initiatives in complex, human-centered environments.
+In conclusion, this internship at Tan Hiep Thanh Joint-Stock Company provided a comprehensive practical application of Information Systems Management principles within the Vietnamese agricultural sector. By establishing a detailed company profile and mapping the "Order-to-Cash" process, the project successfully transitioned from intuitive operational understanding to structured, data-driven visualization. The identification of technical bottlenecks, particularly the fragmented communication and manual data entry, led to the design of a socio-technical solution that balances back-end automation with the cultural necessity of the "human touch."
 
-I extend sincere gratitude to my supervisor, Ms. Thi Nhan Vu, for her guidance, patience, and mentorship throughout this experience. Her feedback pushed my professional development forward and provided insights unavailable in classroom settings.
+The proposed digital roadmap, centered on integrated order-tracking and Zalo-based notifications, has been accepted as the foundation for the company's future digital growth. While the long-term success of these initiatives depends on ongoing data evaluation and change management, the project has already succeeded in establishing a professional framework for digital transformation. On a personal level, this experience bridged the gap between academic theory from the University of Bamberg and the practical complexities of international business, reinforcing that effective IT leadership requires both technical proficiency and deep cultural adaptation.
 
-The knowledge and skills gained during these 17 weeks provide a strong foundation for my future academic and professional pursuits in information systems management.
+This internship successfully bridged the gap between my past experiences and my future career goals. It taught me that in the world of International ISM, technical expertise is only half the battle. The other half is the ability to adapt to a culture that functions differently than your own, even if that culture is technically your own. I leave this internship with a deeper appreciation for the art of business in Vietnam and a strengthened set of skills to lead digital initiatives in complex, human-centered environments. I extend sincere gratitude to my supervisor, Ms. Thi Nhan Vu, for her trust and guidance throughout this experience. The insights gained during these 17 weeks provide a robust foundation for my future career in managing complex digital initiatives in a global context.
